@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    background: rgb(19, 3, 93);
+}
+
+
+ul
+{
+
+       list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        position: fixed;
+        top: 0;
+         width: 100%;
+         
+}
+
+li
+{
+    float: left;
+   
+}
+
+li a
+{
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 25px;
+    padding-left: 40px;
+    text-decoration: none;
+}
+
+ ul li a:hover {
+    background-color: rgb(26, 214, 151);
+  }
+
+
+  /*  new text */
+
+  .imgitem
+{
+    width: 400px;
+    height: 200px;
+    cursor: pointer;
+    
+}
+
+  .imgcontainer
+{
+    overflow: scroll ;
+    white-space: nowrap;
+    
+}
+.imgcontainer ::-webkit-scrollbar
+{
+    -webkit-appearance: none;
+
+}
+.trending
+{
+    color:white;
+    /* background-color:rgb(24, 24, 66); */
+    text-decoration: underline blanchedalmond;
+    margin: 0.5cm;
+}
+/* body{
+    background-color: rgb(24, 24, 66);
+} */
+.styler
+{
+    border: 1px solid  black;
+    border-radius: 2.5px;
+    
+}
+li:hover {
+    color: rgb(227, 237, 36);
+    text-decoration: underline aquamarine;
+  }
+
+  .trending :hover
+  {
+    color: rgb(0, 166, 255);
+    
+  }
+
+  .naver
+  {
+    width: 32px;
+    height: 25px;
+    align-items: center;
+   opacity: 1;
+  }
+  .foot
+  {
+    color: white;
+    background-color: black;
+    padding: 0.2cm;
+    text-align: center;
+    text-decoration: overline underline;
+  }
+
+  

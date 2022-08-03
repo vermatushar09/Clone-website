@@ -1,0 +1,16 @@
+
+.imgitems
+{
+    width: 246.2px;
+    height: 290px;
+}
+
+.contains
+{
+    text-align: center;
+    text-decoration: overline underline rgb(0, 98, 255);
+    color: blueviolet;
+    background-color: lightblue;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
